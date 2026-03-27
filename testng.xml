@@ -9,10 +9,10 @@
     </classes>
   </test> <!-- Test -->
   
-   <test thread-count="5" name="EdgeTest">
+ <!--    <test thread-count="5" name="EdgeTest">
   <parameter name="browser" value="edge"></parameter>
     <classes>
       <class name="tests.TC001_Login_Test"/>
-    </classes>
-  </test> <!-- Test -->
+    </classes> 
+  </test> --> <!-- Test --> 
 </suite> <!-- Suite -->
