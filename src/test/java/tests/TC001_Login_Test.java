@@ -12,6 +12,10 @@ public class TC001_Login_Test extends ProjectSpecificationMethods{
 	public void setup() {
 		
 		sheetname="LoginData";
+		testname="LoginTest";
+		testdescription="This test will check valid and invalid scenario of Login functionality";
+		testcatgory="Regression Test";
+		author="Leema Josephine S";
 		
 	}
 	

@@ -2,16 +2,24 @@
 <testng-results ignored="0" total="2" passed="1" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-03-27T17:38:54 IST" name="Suite" finished-at="2026-03-27T17:39:02 IST" duration-ms="7539">
+  <suite started-at="2026-04-24T19:45:58 IST" name="Suite" finished-at="2026-04-24T19:46:08 IST" duration-ms="9768">
     <groups>
     </groups>
-    <test started-at="2026-03-27T17:38:54 IST" name="ChromeTest" finished-at="2026-03-27T17:39:02 IST" duration-ms="7539">
+    <test started-at="2026-04-24T19:45:58 IST" name="EdgeTest" finished-at="2026-04-24T19:46:08 IST" duration-ms="9768">
       <class name="tests.TC001_Login_Test">
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests.TC001_Login_Test@279fedbd]" started-at="2026-03-27T17:38:54 IST" name="setup" finished-at="2026-03-27T17:38:54 IST" duration-ms="13" status="PASS">
+        <test-method is-config="true" signature="reportInitialzation()[pri:0, instance:tests.TC001_Login_Test@41a2befb]" started-at="2026-04-24T19:45:58 IST" name="reportInitialzation" finished-at="2026-04-24T19:45:58 IST" duration-ms="573" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportInitialzation -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.TC001_Login_Test@41a2befb]" started-at="2026-04-24T19:45:58 IST" name="setup" finished-at="2026-04-24T19:45:58 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="launchBrowser(java.lang.String,java.lang.String)[pri:0, instance:tests.TC001_Login_Test@279fedbd]" started-at="2026-03-27T17:38:55 IST" name="launchBrowser" finished-at="2026-03-27T17:38:57 IST" duration-ms="2296" status="PASS">
+        <test-method is-config="true" signature="testDetails()[pri:0, instance:tests.TC001_Login_Test@41a2befb]" started-at="2026-04-24T19:45:58 IST" name="testDetails" finished-at="2026-04-24T19:45:58 IST" duration-ms="20" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDetails -->
+        <test-method is-config="true" signature="launchBrowser(java.lang.String,java.lang.String)[pri:0, instance:tests.TC001_Login_Test@41a2befb]" started-at="2026-04-24T19:46:00 IST" name="launchBrowser" finished-at="2026-04-24T19:46:03 IST" duration-ms="3323" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -20,14 +28,14 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[chrome]]>
+                <![CDATA[edge]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method signature="loginTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.TC001_Login_Test@279fedbd]" started-at="2026-03-27T17:38:57 IST" name="loginTest" data-provider="readData" finished-at="2026-03-27T17:38:58 IST" duration-ms="592" status="FAIL">
+        <test-method signature="loginTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.TC001_Login_Test@41a2befb]" started-at="2026-04-24T19:46:03 IST" name="loginTest" data-provider="readData" finished-at="2026-04-24T19:46:04 IST" duration-ms="713" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -63,7 +71,7 @@ at org.testng.Assert.assertEquals(Assert.java:132)
 at org.testng.Assert.assertEquals(Assert.java:656)
 at org.testng.Assert.assertEquals(Assert.java:666)
 at pages.InventoryPage.validateLogin(InventoryPage.java:28)
-at tests.TC001_Login_Test.loginTest(TC001_Login_Test.java:26)
+at tests.TC001_Login_Test.loginTest(TC001_Login_Test.java:30)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -96,11 +104,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:tests.TC001_Login_Test@279fedbd]" started-at="2026-03-27T17:38:58 IST" name="closeBrowser" finished-at="2026-03-27T17:38:58 IST" duration-ms="178" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:tests.TC001_Login_Test@41a2befb]" started-at="2026-04-24T19:46:04 IST" name="closeBrowser" finished-at="2026-04-24T19:46:05 IST" duration-ms="268" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="launchBrowser(java.lang.String,java.lang.String)[pri:0, instance:tests.TC001_Login_Test@279fedbd]" started-at="2026-03-27T17:38:58 IST" name="launchBrowser" finished-at="2026-03-27T17:39:01 IST" duration-ms="2545" status="PASS">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String,java.lang.String)[pri:0, instance:tests.TC001_Login_Test@41a2befb]" started-at="2026-04-24T19:46:05 IST" name="launchBrowser" finished-at="2026-04-24T19:46:07 IST" duration-ms="2359" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -109,14 +117,14 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
             </param>
             <param index="1">
               <value>
-                <![CDATA[chrome]]>
+                <![CDATA[edge]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method signature="loginTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.TC001_Login_Test@279fedbd]" started-at="2026-03-27T17:39:01 IST" name="loginTest" data-provider="readData" finished-at="2026-03-27T17:39:01 IST" duration-ms="606" status="PASS">
+        <test-method signature="loginTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.TC001_Login_Test@41a2befb]" started-at="2026-04-24T19:46:07 IST" name="loginTest" data-provider="readData" finished-at="2026-04-24T19:46:08 IST" duration-ms="599" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -142,11 +150,15 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:tests.TC001_Login_Test@279fedbd]" started-at="2026-03-27T17:39:01 IST" name="closeBrowser" finished-at="2026-03-27T17:39:02 IST" duration-ms="243" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:tests.TC001_Login_Test@41a2befb]" started-at="2026-04-24T19:46:08 IST" name="closeBrowser" finished-at="2026-04-24T19:46:08 IST" duration-ms="234" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="closeReport()[pri:0, instance:tests.TC001_Login_Test@41a2befb]" started-at="2026-04-24T19:46:08 IST" name="closeReport" finished-at="2026-04-24T19:46:09 IST" duration-ms="591" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeReport -->
       </class> <!-- tests.TC001_Login_Test -->
-    </test> <!-- ChromeTest -->
+    </test> <!-- EdgeTest -->
   </suite> <!-- Suite -->
 </testng-results>
