@@ -148,7 +148,7 @@
 	at pages.InventoryPage.validateLogin(InventoryPage.java:28)
 	at tests.TC001_Login_Test.loginTest(TC001_Login_Test.java:30)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-... Removed 31 stack frames
+... Removed 35 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
@@ -179,12 +179,12 @@
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+&lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
   &lt;parameter name=&quot;url&quot; value=&quot;https://www.saucedemo.com/&quot;/&gt;
   &lt;listeners&gt;
     &lt;listener class-name=&quot;utils.Listener&quot;/&gt;
   &lt;/listeners&gt;
-  &lt;test thread-count=&quot;5&quot; name=&quot;EdgeTest&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;EdgeTest&quot; verbose=&quot;0&quot;&gt;
     &lt;parameter name=&quot;browser&quot; value=&quot;edge&quot;/&gt;
     &lt;classes&gt;
       &lt;class name=&quot;tests.TC001_Login_Test&quot;/&gt;
@@ -231,11 +231,11 @@ data.addRows(2);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'loginTest')
 data.setCell(0, 2, 'tests.TC001_Login_Test')
-data.setCell(0, 3, 806);
+data.setCell(0, 3, 898);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'loginTest')
 data.setCell(1, 2, 'tests.TC001_Login_Test')
-data.setCell(1, 3, 675);
+data.setCell(1, 3, 727);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
@@ -273,41 +273,41 @@ return data;
               </div> <!-- configuration-suite before -->
               <div class="configuration-test before">
                 <span class="method-name">setup</span>
-                <span class="method-start">343 ms</span>
+                <span class="method-start">506 ms</span>
               </div> <!-- configuration-test before -->
               <div class="configuration-class before">
                 <span class="method-name">testDetails</span>
-                <span class="method-start">371 ms</span>
+                <span class="method-start">533 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-method before">
                 <span class="method-name">launchBrowser(https://www.saucedemo.com/, edge)</span>
-                <span class="method-start">1893 ms</span>
+                <span class="method-start">2167 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">loginTest(standard_user, secret_sauce, ValidUNValidPass, Swag Lab)</span>
-                <span class="method-start">9603 ms</span>
+                <span class="method-start">5559 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">closeBrowser</span>
-                <span class="method-start">10769 ms</span>
+                <span class="method-start">6837 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">launchBrowser(https://www.saucedemo.com/, edge)</span>
-                <span class="method-start">11105 ms</span>
+                <span class="method-start">7018 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">loginTest(standar, secret_sauce, InvalidUNValidPass, Epic sadface: Username and password do not match any user...)</span>
-                <span class="method-start">14014 ms</span>
+                <span class="method-start">10120 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">closeBrowser</span>
-                <span class="method-start">14802 ms</span>
+                <span class="method-start">10985 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-suite after">
                 <span class="method-name">closeReport</span>
-                <span class="method-start">15110 ms</span>
+                <span class="method-start">11340 ms</span>
               </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

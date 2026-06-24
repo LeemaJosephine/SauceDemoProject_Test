@@ -1,0 +1,6 @@
+base\ProjectSpecificationMethods.class
+pages\InventoryPage.class
+tests\TC001_Login_Test.class
+utils\UtilityClass.class
+pages\HomePage.class
+utils\Listener.class
